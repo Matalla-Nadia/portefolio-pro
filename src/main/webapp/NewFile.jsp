@@ -34,8 +34,7 @@
     		  <li class="nav__item"><a href="#accueil" class="nav__link active">Accueil</a></li>
     		  <li class="nav__item"><a href="#apropos" class="nav__link">A propos</a></li>
     		  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-    		  <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-    		  <li class="nav__item"><a href="#projets" class="nav__link">Projets</a></li>
+    		  <li class="nav__item"><a href="#works" class="nav__link">Projets</a></li>
     		  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
     		</ul>
     		
@@ -47,7 +46,7 @@
   
 <main class="1-main">
   <!-- home -->
-    <section class="home" id="home">
+    <section class="accueil" id="accueil">
       <div class="home__container bd-grid">
         <div class="home__data">
            <div class="home__img">
@@ -69,7 +68,7 @@
       </div>
     </section>
     
-    <section class="about section" id="about">
+    <section class="about section" id="apropos">
       <span class="section-subtitle">Mon intro</span>
        <h2 class="section-title">A propos de moi</h2>
        
@@ -139,7 +138,7 @@
    </section>
    
    
-  <section class="skills section" id="section">
+  <section class="skills section" id="skills">
     <span class="section-subtitle"> Pourquoi me choisir?</span>
     <h2 class="section-title"> My expertise Area</h2> 
     
@@ -197,15 +196,177 @@
      </div>
     </div>
      
-    
   </section>
+  
+ <!--Education--> 
+ 
+  <section class="education section">
+   <span class="section-subtitle"> Qualification</span>
+    <h2 class="section-title"> Mon expérience</h2> 
+    
+   <div class="education__container bd-grid">
    
-
+    <div  class="education__content">
+        <div>
+          <h3 class="education__year">2008-2009</h3>
+          <span class="education__university">Lycée Marie Curie</span>
+        </div>
+      
+      <div class="education__time">
+         <span class="education__rounder"></span>
+         <span class="education__line"></span>
+      </div>
+      
+      <div>
+          <h3 class="education__race">Diplôme</h3>
+          <span class="education__university">Bac Sciences et Technologies de la Gestion </span>
+       </div>
+   </div>
+  <!-- ---------------------------------------------------------------------- --> 
+     <div  class="education__content">
+        <div>
+          <h3 class="education__year">2010-2019</h3>
+          <span class="education__university">Responsable Mcdonalds</span>
+        </div>
+      
+      <div class="education__time">
+         <span class="education__rounder"></span>
+         <span class="education__line"></span>
+      </div>
+      
+      <div>
+          <h3 class="education__race">Diplome</h3>
+          <span class="education__university">BTS Management commercial opérationnel </span>
+       </div>
+   </div>
+  <!-- ---------------------------------------------------------- -->  
+    <div  class="education__content">
+        <div>
+          <h3 class="education__year">2019-2020</h3>
+          <span class="education__university">Commercial</span>
+        </div>
+      
+      <div class="education__time">
+         <span class="education__rounder"></span>
+         <span class="education__line"></span>
+      </div>
+      
+      
+   </div>
+    
+  <!------------------------------------------------------------->
+    <div  class="education__content">
+        <div>
+          <h3 class="education__year">2020-2021</h3>
+          <span class="education__university">Afpa Paris</span>
+        </div>
+      
+      <div class="education__time">
+         <span class="education__rounder"></span>
+         <span class="education__line"></span>
+      </div>
+      
+      <div>
+          <h3 class="education__race">Diplome</h3>
+          <span class="education__university">Concepteur d'Applications Web </span>
+       </div>
+   </div>
+  </div> 
+ 
+</section>
+   
+   <!-- ------Projet -->
+   
+   <section class="projets section">
+     <div class="projets__container bd-grid">
+        <div class="projets__data">
+            <h2 class="section-title projets__title">Avez vous un projet en tete?</h2>
+            <p class="projets__description">lorellllllllllllllllllllllllllllllllllllll<br>
+                                           ffffffffffffffffffffffffffffffffffffffffffff<br>
+                                           fffffffffffffffffffffffffffffffffffffffffffff<br>
+           </p>
+            <a href="#contact" class="button button__light" >Contactez moi</a>
+        </div>
+        
+        <img src="img/projetOrdi.jpg" alt="" class="projets__img">
+     </div>
+     
+   </section>
+  
+   <!-- ----------  work------- --> 
+  
+  <section class="works section"  id="works">
+    <span class="section-subtitle">Mon portefolio</span>
+    <h2 class="section-title">Projets recents</h2>
+    
+   <div class="works__container bd-grid">
+     <div class="works__img">
+        <img src="img/projetOrdi.jpg" alt="">
+         
+         <div class="works__data">
+            <a href="#" class="work__link"><i class='bx bx-link-alt'></i></a>
+            <span class="works__title">Work1</span>
+         </div>
+     </div>
+     <div class="works__img">
+        <img src="img/projetOrdi.jpg" alt="">
+         
+         <div class="works__data">
+            <a href="#" class="work__link"><i class='bx bx-link-alt'></i></a>
+            <span class="works__title">Work2</span>
+         </div>
+     </div>
+   </div> 
+  </section>   
+    
+    <!-- ------------contact-------------------------- -->
+    <section class="contact section" id="contact">
+      <span class="section-subtitle"> Contactez moi</span>
+      <h2 class="section-title">Get in touch</h2>
+      
+      <div class="contact__container bd-grid" >
+        <form action="" class="contact__form">
+          <div class="contact__inputs">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="email" placeholder="Email" class="contact__input">
+          </div>
+          
+          <input type="text" placeholder="Projet" class="contact__input">
+          
+          <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+          
+          <input type="submit" value="Send Message" class="button contact__button">
+        </form>
+        
+        <div>
+          <div class="contact__info">
+             <h3 class="contact__subtitle">Apellez moi</h3>
+             <span class="contact__text">07.83.85.84.52</span>
+          </div>
+          <div class="contact__info">
+             <h3 class="contact__subtitle">Email</h3>
+             <span class="contact__text">manatia230@outlook.fr</span>
+          </div>
+        </div>
+      </div>
+    </section>
 </main>
 
    <!-- -------Footer-------------- -->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+         <h1 class="footer__title">Nadia</h1>
+         <p class="footer__description">llllllllllllllllllllllllllllllllllllllllllllllllllllll</p>
+         
+         <div class="footer__social">
+            <a href="#" class="footer__link"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" class="footer__link"><i class='bx bxl-github'></i></a>
+            <a href="#" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+         </div>
+         <p class="footer__copy">copyright-2021</p>
+      </div>
+    </footer>
    
-   
-   <script src="javaScript.js"></script>
+   <script src="mod.js"></script>
 </body>
 </html>
