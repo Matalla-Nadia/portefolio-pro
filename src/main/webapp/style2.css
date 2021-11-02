@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	position:fixed;
+}
+
+ .slidee{
+   
+    width: 100%;
+  }
+   .fleche{
+     margin-bottom: 41em;
+   }

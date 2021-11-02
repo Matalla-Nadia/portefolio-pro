@@ -34,6 +34,7 @@
     		  <li class="nav__item"><a href="#accueil" class="nav__link active">Accueil</a></li>
     		  <li class="nav__item"><a href="#apropos" class="nav__link">A propos</a></li>
     		  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+    		   <li class="nav__item"><a href="#valeurs" class="nav__link">Valeurs</a></li>
     		  <li class="nav__item"><a href="#works" class="nav__link">Projets</a></li>
     		  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
     		</ul>
@@ -46,101 +47,82 @@
   
 <main class="1-main">
   <!-- home -->
-    <section class="accueil" id="accueil">
-      <div class="home__container bd-grid">
+    <section class="accueil" id="accueil" >
+      <div class="home__container bd-grid test">
         <div class="home__data">
            <div class="home__img">
               <img src="img/portrait.jpg">
            </div>
            
            <h1 class="home__title"> Matalla Nadia</h1>
-           <span class="home__profession">Frontend Developpeur</span>
+           <span class="home__profession"> Développeur d'Applications Web Junior</span>
            
            <div class="home__social">
-              <a href="#" class="home__social-link"><i class='bx bxl-linkedin' ></i></a>
-              <a href="#" class="home__social-link"><i class='bx bxl-github' ></i></a>
-              <a href="#" class="home__social-link"><i class='bx bxl-facebook' ></i></a>
-              <a href="#" class="home__social-link"><i class='bx bxl-youtube' ></i></a>
+              <a href="#" class="home__social-link"><i class='' ></i></a>
+              <a href="#" class="home__social-link"><i class='' ></i></a>
+              <a href="#" class="home__social-link"><i class='' ></i></a>
+              <a href="#" class="home__social-link"><i class='' ></i></a>
            </div>
            
-           <a download="" href="#" class="button home__button">Download resume</a>
+           <a href=" https://matalla-nadia.github.io/Cv-en-ligne/" class="button home__button">Voir le CV</a>
         </div>
       </div>
     </section>
     
+    
+     <!-- A propos---------------------------------------------- -->
     <section class="about section" id="apropos">
       <span class="section-subtitle">Mon intro</span>
        <h2 class="section-title">A propos de moi</h2>
        
        <div class="about__container bd-grid">
        		<div class="about__data">
-       		 <p class="about__description">Hello, je m'appelle Nadia Matalla, j'ai 30 ans et je suis actuellement en formation pour devenir<span>
-	            devellopeur d'application.
+       		 <p class="about__description">
+Bonjour, je m’appelle Nadia Matalla, je suis Concepteur d'Applications Web junior.
+  
+Suite à une expérience enrichissante de 9 ans dans le management d'équipe en restauration, j'ai effectué une reconversion professionnelle dans le Développement Web.
+J’ai donc suivi la formation de Concepteur d'applications Web au sein du Centre AFPA Nation. Suite à cette formation, je suis toujours autant motivée voir un peu plus chaques jours.Je continue la réalisation de mes projets et surtout à y prendre du plaisir!
+	         </p>
 	                <img src="img/portrait.jpg" alt="" class="about__img">
        		</div>
          
-      <!--<div> </div>   -->  
-        
-       
-       
-      
-     <div class="about__information">
-       <h3 class="about__information-title">Informations</h3>
-       
-        <div class="about__information-data">
-          <i class='bx bx-user about__information-icon'></i>
-          <span>Nadia Matalla</span>
-        </div>
-        
-          <div class="about__information-data">
-          <i class='bx bx-phone about__information-icon'></i>
-          <span>07.83.85.84.52</span>
-        </div>
-        
-         <div class="about__information-data">
-          <i class='bx bx-envelope about__information-icon'></i>
-          <span>manatia230@outlook.fr</span>
-        </div>
-      </div>  		
-       		
-       <div class="about__information">
-         <h3 class="about__information-title">Experience et supports</h3>
-       	</div>	
-       		
-       		
-          <div class="about__information-data">
-             <i class='bx bx-medal about__information-icon'></i>
-          <div>
-             <span class="about__information-subtitle">Junior</span>
-             <span class="about__information-subtitle-small">Expérience</span>
-         </div>
-        </div> 
-        
-            <div class="about__information-data">
-             <i class='bx bx-briefcase about__information-icon'></i>
-          <div>
-             <span class="about__information-subtitle">2 projets</span>
-             <span class="about__information-subtitle-small">Compétence</span>
-         </div>
-        </div> 
-           
-           <div class="about__information-data">
-             <i class='bx bx-support about__information-icon'></i>
-          <div>
-             <span class="about__information-subtitle">Support</span>
-             <span class="about__information-subtitle-small">Online</span>
-         </div>
-        </div> 
-        
-        
-        
-        
-   </section>
+      <!--<div> </div>   -->
+
+
+
+               
+           <div>
+                
+				<div class="about__information">
+					<h3 class="about__information-title">Experience et supports</h3>
+				
+
+
+				<div class="about__information-data">
+					<i class='bx bx-medal about__information-icon'></i>
+					<div>
+						<span class="about__information-subtitle">Junior</span> 
+						<span class="about__information-subtitle-small"></span>
+							
+					</div>
+				</div>
+
+				<div class="about__information-data">
+					<i class='bx bx-briefcase about__information-icon'></i>
+					<div>
+						<span class="about__information-subtitle">2 projets</span> 
+						<span class="about__information-subtitle-small"></span>
+					</div>
+				</div>				
+	       </div>
+		</div>
+  </div>	
+  </section>
    
    
   <section class="skills section" id="skills">
-    <span class="section-subtitle"> Pourquoi me choisir?</span>
-    <h2 class="section-title"> My expertise Area</h2> 
+    <span class="section-subtitle">Savoir-faire</span>
+    <h2 class="section-title"> Mes compétences</h2> 
     
     <div class="skills__container bd-grid">
       <div class="skills__content">
@@ -149,21 +131,21 @@
       
       <div class="skills__data">
         <span class="skills__name">Html/css</span>
-        <span class="skills__number">70%</span>
+        <span class="skills__number">80%</span>
          <span class="skills__bar skills__html"></span>
       </div>
       
       
       <div class="skills__data">
         <span class="skills__name">JavaScript</span>
-        <span class="skills__number">50%</span>
+        <span class="skills__number">70%</span>
          <span class="skills__bar skills__js"></span>
       </div>
       
       
       <div class="skills__data">
-        <span class="skills__name">Framework</span>
-        <span class="skills__number">65%</span>
+        <span class="skills__name">Bootstrap</span>
+        <span class="skills__number">80%</span>
          <span class="skills__bar skills__framework"></span>
       </div>
      </div>
@@ -175,23 +157,18 @@
       
       <div class="skills__data">
         <span class="skills__name">Java</span>
-        <span class="skills__number">70%</span>
+        <span class="skills__number">72%</span>
          <span class="skills__bar skills__java"></span>
       </div>
       
       
       <div class="skills__data">
-        <span class="skills__name">SpringBoot</span>
-        <span class="skills__number">30%</span>
-         <span class="skills__bar skills__springboot"></span>
+        <span class="skills__name">SQL</span>
+        <span class="skills__number">60%</span>
+         <span class="skills__bar skills__sql"></span>
       </div>
       
       
-      <div class="skills__data">
-        <span class="skills__name">Framework</span>
-        <span class="skills__number">65%</span>
-         <span class="skills__bar skills__framework"></span>
-      </div>
       
      </div>
     </div>
@@ -219,14 +196,14 @@
       
       <div>
           <h3 class="education__race">Diplôme</h3>
-          <span class="education__university">Bac Sciences et Technologies de la Gestion </span>
+          <span class="education__race" style="font-size: var(--smaller-font-size);">Bac Sciences et Technologies de la Gestion </span>
        </div>
    </div>
   <!-- ---------------------------------------------------------------------- --> 
      <div  class="education__content">
         <div>
           <h3 class="education__year">2010-2019</h3>
-          <span class="education__university">Responsable Mcdonalds</span>
+          <span class="education__university">Responsable Mcdonald's</span>
         </div>
       
       <div class="education__time">
@@ -236,7 +213,7 @@
       
       <div>
           <h3 class="education__race">Diplome</h3>
-          <span class="education__university">BTS Management commercial opérationnel </span>
+          <span class="education__race" style="font-size: var(--smaller-font-size);">BTS Management commercial opérationnel </span>
        </div>
    </div>
   <!-- ---------------------------------------------------------- -->  
@@ -268,27 +245,52 @@
       
       <div>
           <h3 class="education__race">Diplome</h3>
-          <span class="education__university">Concepteur d'Applications Web </span>
+          <span class="education__race" style="font-size: var(--smaller-font-size);">Concepteur Développeur d'Applications Web </span>
        </div>
    </div>
   </div> 
  
 </section>
    
+   
+   <!-- Service--------------------------------------- -->
+    <section class="valeurs section" id="valeurs">
+      <span class="section-subtitle">Savoir-être</span>
+       <h2 class="section-title">Mes valeurs </h2>
+       
+       
+      <div class="valeurs__container bd-grid">
+         <div class="valeurs__content">
+	          <i class='bx bx-check-square'></i>
+	          <h3 class="valeurs__title">Esprit d'équipe</h3>
+	          <p class="valeurs__description">J'apprécie le travail d'équipe,<br>c'est essentielle pour la cohésion de groupe. </p>
+         </div> 
+         <div class="valeurs__content">
+	          <i class='bx bx-check-square'></i>
+	          <h3 class="valeurs__title">Adaptabilité</h3>
+	          <p class="valeurs__description"> Je m'adapte facilement aux différents environmements de travail.<br>J'apprécie travailler avec des profils variés.</p>
+         </div> 
+         <div class="valeurs__content">
+	          <i class='bx bx-check-square'></i>
+	          <h3 class="valeurs__title">Motivation</h3>
+	          <p class="valeurs__description">Ma reconversion professionelle me conforte dans mon choix de carrière.<br>J'ai trouvé ma voie et je me projette à long terme.</p>
+         </div> 
+           <div class="valeurs__content">
+	          <i class='bx bx-check-square'></i>
+	          <h3 class="valeurs__title">Curiosité</h3>
+	          <p class="valeurs__description">J'aime apprendre de nouvelles choses<br>et découvrir d'autres langages.</p>
+         </div> 
+      </div>
+      </section>   
    <!-- ------Projet -->
    
    <section class="projets section">
      <div class="projets__container bd-grid">
         <div class="projets__data">
-            <h2 class="section-title projets__title">Avez vous un projet en tete?</h2>
-            <p class="projets__description">lorellllllllllllllllllllllllllllllllllllll<br>
-                                           ffffffffffffffffffffffffffffffffffffffffffff<br>
-                                           fffffffffffffffffffffffffffffffffffffffffffff<br>
-           </p>
-            <a href="#contact" class="button button__light" >Contactez moi</a>
+            
         </div>
         
-        <img src="img/projetOrdi.jpg" alt="" class="projets__img">
+      
      </div>
      
    </section>
@@ -297,23 +299,23 @@
   
   <section class="works section"  id="works">
     <span class="section-subtitle">Mon portefolio</span>
-    <h2 class="section-title">Projets recents</h2>
+    <h2 class="section-title">Projets récents</h2>
     
    <div class="works__container bd-grid">
      <div class="works__img">
         <img src="img/projetOrdi.jpg" alt="">
          
          <div class="works__data">
-            <a href="#" class="work__link"><i class='bx bx-link-alt'></i></a>
-            <span class="works__title">Work1</span>
+            <a href="monture.jsp" class="work__link"><i class='bx bx-link-alt'></i></a>
+            <span class="works__title">Eshop Lunette</span>
          </div>
      </div>
      <div class="works__img">
         <img src="img/projetOrdi.jpg" alt="">
          
          <div class="works__data">
-            <a href="#" class="work__link"><i class='bx bx-link-alt'></i></a>
-            <span class="works__title">Work2</span>
+            <a href="traiteur.jsp" class="work__link"><i class='bx bx-link-alt'></i></a>
+            <span class="works__title">Site de recettes</span>
          </div>
      </div>
    </div> 
@@ -321,26 +323,30 @@
     
     <!-- ------------contact-------------------------- -->
     <section class="contact section" id="contact">
-      <span class="section-subtitle"> Contactez moi</span>
-      <h2 class="section-title">Get in touch</h2>
+     
+      <h2 class="section-title">Contactez moi</h2>
       
       <div class="contact__container bd-grid" >
-        <form action="" class="contact__form">
+      
+       <form action="https://formsubmit.co/manatia230@outlook.com"  method="POST" class="contact__form">
           <div class="contact__inputs">
-            <input type="text" placeholder="Name" class="contact__input">
-            <input type="email" placeholder="Email" class="contact__input">
+          <input type="hidden" name="_subject" value="Nouvelle email!">
+          <input type="email" name="email" class="contact__input"  placeholder="Entrez votre mail" required>
           </div>
           
-          <input type="text" placeholder="Projet" class="contact__input">
+           <input type="hidden" name="_next" value="https://matalla-nadia.github.io/Cv-en-ligne/">
+          <textarea name="name" id="" cols="0" rows="10" placeholder="Message" class="contact__input" required></textarea>
           
-          <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+            
+           <button type="submit" class="button contact__button">Envoyer</button>
+        </form> 
+      
           
-          <input type="submit" value="Send Message" class="button contact__button">
-        </form>
         
+     
         <div>
           <div class="contact__info">
-             <h3 class="contact__subtitle">Apellez moi</h3>
+             <h3 class="contact__subtitle">Contact</h3>
              <span class="contact__text">07.83.85.84.52</span>
           </div>
           <div class="contact__info">
@@ -355,15 +361,13 @@
    <!-- -------Footer-------------- -->
     <footer class="footer section">
       <div class="footer__container bd-grid">
-         <h1 class="footer__title">Nadia</h1>
-         <p class="footer__description">llllllllllllllllllllllllllllllllllllllllllllllllllllll</p>
          
          <div class="footer__social">
-            <a href="#" class="footer__link"><i class='bx bxl-linkedin'></i></a>
-            <a href="#" class="footer__link"><i class='bx bxl-github'></i></a>
-            <a href="#" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.linkedin.com/in/nadia-matalla-767b39219/" class="footer__link"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Matalla-Nadia" class="footer__link"><i class='bx bxl-github'></i></a>
+             <a href="mailto: manatia230@outlook.fr" class="footer__link"><i class='bx bx-mail-send'></i></a>
          </div>
-         <p class="footer__copy">copyright-2021</p>
+       
       </div>
     </footer>
    
